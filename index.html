@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>貪食蛇遊戲</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kablammo&family=Noto+Sans+TC&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <canvas
+      id="myCanvas"
+      width="500"
+      height="500"
+      style="background-color: black"
+    ></canvas>
+
+    <p id="myScore"></p>
+
+    <p id="myScore2"></p>
+
+    <button type="button" id="Start" onclick="location.reload()">
+      開始新遊戲
+    </button>
+    <audio
+      controls
+      src="./music/Adrián Berenguer - Premiere.mp3"
+      id="bgm"
+    ></audio>
+    <audio src="./music/button01a.mp3" id="win"></audio>
+    <audio src="./music/blip01.mp3" id="loser"></audio>
+    <script src="./app.js"></script>
+  </body>
+</html>
